@@ -26,7 +26,7 @@ if (answer === check) {
   console.log('Correct!')
   win += 1
 } if (answer !== check) {
-   console.log(`${answer}` + ' ' + 'is wrong answer ;(. Correct answer was' + ' ' + `${check}` + '.' + '\n' + 'Lets try again,' + ' ' + `${name}` + '!')
+   console.log(`${answer}` + ' ' + 'is wrong answer ;(. Correct answer was' + ' ' + `${check}` + '.' + '\n' + "Let's try again," + ' ' + `${name}` + '!')
   flag = 'lose'
 } if (win === 3) {
   console.log('Congratulations,' + ' ' + `${name}` + '!')

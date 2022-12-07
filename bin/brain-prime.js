@@ -34,10 +34,10 @@ while (flag === 'win') {
     console.log('Correct!')
     win += 1
   } if (check === 'true' && answer === 'no') {
-    console.log('"no" is wrong answer ;(. Correct answer was "yes".' + '\n' + 'Lets try again,' + ' ' + `${name}` + '!')
+    console.log('"no" is wrong answer ;(. Correct answer was "yes".' + '\n' + "Let's try again," + ' ' + `${name}` + '!')
     flag = 'lose'
   } if (check !== 'true' && answer === 'yes') {
-    console.log('"yes" is wrong answer ;(. Correct answer was "no".' + '\n' + 'Lets try again,' + ' ' + `${name}` + '!')
+    console.log('"yes" is wrong answer ;(. Correct answer was "no".' + '\n' + "Let's try again," + ' ' + `${name}` + '!')
     flag = 'lose'
   } if (win === 3) {
   console.log('Congratilutions,' + ' ' + `${name}` + '!')
