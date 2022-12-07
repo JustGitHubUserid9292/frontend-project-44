@@ -31,7 +31,7 @@ console.log('"no" is wrong answer ;(. Correct answer was "yes".', '\n', 'Lets tr
 flag = 'lose'
 }
 if (win === 3) {
-  console.log('Congratilutions,' + ' ' + `${name}` + '!')
+  console.log('Congratulations,' + ' ' + `${name}` + '!')
   break
 }
 }
