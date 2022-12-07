@@ -12,7 +12,7 @@ while (flag === 'win') {
   console.log('Question: ' + `${num}`)
   let answer = readlineSync.question('Your answer: ')
   if (answer !== 'yes' && answer !== 'no') {
-    console.log('"yes" is wrong answer ;(. Correct answer was "no".' + '\n' + 'Lets try again,' + ' ' + `${name}` + '!')
+    console.log('"yes" is wrong answer ;(. Correct answer was "no".' + '\n' + "Let's try again," + ' ' + `${name}` + '!')
     flag = 'lose'
   }
   function prime(n) {
