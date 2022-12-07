@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 
+/* eslint no-useless-concat: "off", curly: "error" */
+/* eslint no-inner-declarations: "off", curly: "error" */
+
 import readlineSync from 'readline-sync';
 
 console.log('Welcome to the Brain Games!');

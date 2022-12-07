@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 
+/* eslint no-useless-concat: "off", curly: "error" */
+/* eslint no-eval: "off", curly: "error" */
+
 import readlineSync from 'readline-sync';
 
 console.log('Welcome to the Brain Games!');
@@ -21,7 +24,7 @@ while (flag === 'win') {
     win += 1;
   }
   if (answer !== String(Question)) {
-    console.log(`${answer}` + ' ' + 'is wrong answer ;(. Correct answer was' + ' ' + `${Question}` + '.' + '\n' + "Let's try again," + ' ' + `${name}` + '!');
+    console.log(`${answer}` + ' ' + 'is wrong answer ;(. Correct answer was' + ' ' + `${Question}` + '.', '\n', "Let's try again," + ' ' + `${name}` + '!');
     flag = 'lose';
   }
   if (win === 3) {
