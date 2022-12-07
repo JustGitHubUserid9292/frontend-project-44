@@ -40,7 +40,7 @@ while (flag === 'win') {
     console.log('"yes" is wrong answer ;(. Correct answer was "no".' + '\n' + "Let's try again," + ' ' + `${name}` + '!')
     flag = 'lose'
   } if (win === 3) {
-  console.log('Congratilutions,' + ' ' + `${name}` + '!')
+  console.log('Congratulations,' + ' ' + `${name}` + '!')
   break
 }
 }
