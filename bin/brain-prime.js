@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync'
-console.log('Welcome to the Brain Game!');
+console.log('Welcome to the Brain Games!');
 let flag = 'win'
 let win = 0
 const name = readlineSync.question('May I have your name? ');
